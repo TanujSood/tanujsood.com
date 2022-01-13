@@ -1,0 +1,37 @@
+.Navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.site-title {
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 35px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}

@@ -1,0 +1,13 @@
+.header-layout {
+    background-color: chartreuse;
+    height: 70vh;
+}
+
+.content {
+    height: 100%;
+    align-content: center;
+    background-color: coral;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    vertical-align: middle;
+}
