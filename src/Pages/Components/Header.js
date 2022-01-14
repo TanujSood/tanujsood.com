@@ -12,7 +12,7 @@ function Header() {
             <div className='content'>
                 <Row align="middle" style={{alignContent:'center', height:'100%', backgroundColor:'beige'}}>
                     <Col span={14} style={{height:'25%', textAlign:'left', backgroundColor:'purple'}}>
-                        <Title>Hi! I am Tanuj Sood</Title>
+                        <a href="https://google.com" target="_blank" rel="noopener noreferrer"></a><Title>Hi! I am Tanuj Sood</Title>
                         <h3>An Aspiring Product Designer</h3>
                         
                     </Col>

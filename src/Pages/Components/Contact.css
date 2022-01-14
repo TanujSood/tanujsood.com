@@ -1,0 +1,8 @@
+.contact-master {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    height: 50vh;
+    line-height: 50vh;
+    background-color: bisque;
+}

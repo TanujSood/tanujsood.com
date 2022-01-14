@@ -1,5 +1,8 @@
+.project-master {
+    height: 100vh;
+}
+
 .card-stack {
-    background-color: coral;
     margin-right: 10vw;
     margin-left: 10vw;
     vertical-align: middle;

@@ -5,24 +5,24 @@ const Menu = [
     {
         title: 'Work',
         url: '#',
-        cName: 'nav-link'
+        cName: 'nav-link hover-underline-animation'
     },
     {
         title: 'About',
         url: '#',
-        cName: 'nav-link'
+        cName: 'nav-link hover-underline-animation'
     },
     {
         title: 'Resume',
         url: 'https://drive.google.com/file/d/1A5SgUkHYqk4XHiAoYIsd-I4T_UkhN2bd/view?usp=sharing',
-        cName: 'nav-link'
+        cName: 'nav-link hover-underline-animation'
     }
 ]
 
 function Navbar() {
     return (
         <nav className='Navbar'>
-            <h1 className='site-title'>Tanuj Sood</h1>
+            <h1 className='site-title hover-underline-animation'>Tanuj Sood</h1>
             <div className='site-logo'>
 
             </div>
