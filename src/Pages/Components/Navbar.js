@@ -18,7 +18,7 @@ function Navbar() {
                             <a className="nav-link hover-underline-animation" href='/about'>
                                 About
                             </a>
-                            <a target='_blank' className="nav-link-end hover-underline-animation" href='/work/trana'>
+                            <a target='_blank' className="nav-link-end hover-underline-animation" href='https://drive.google.com/file/d/1TKP6RnQfPzKzk15WsCmDhGWn79gLT4PG/view?usp=sharing'>
                                 Resume
                             </a>
                         </li>

@@ -1,0 +1,79 @@
+.spread {
+    display: flex;
+    justify-content: center;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.trana-master{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+.main-subtitle {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 1;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.paragraph {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.caption {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.sub-caption {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.feature-caption {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.content-master {
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+}
+
+.figures {
+    width: 100%;
+    margin-bottom: 20px;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Case.css'
 import './Trana.css'
 import { Row, Col, Divider } from 'antd'
 import Spread from '../Components/Assets/Trana/Trana-Spread.png';
@@ -9,6 +10,7 @@ import PainPoints from '../Components/Assets/Trana/PainPoints.png';
 import CompetitiveAnalysis from '../Components/Assets/Trana/CompetitiveAnalysis.png'
 import UserFlow from '../Components/Assets/Trana/UserFlow.png'
 import DesignOpportunities from '../Components/Assets/Trana/DesignOpportunities.png'
+import Sketch from '../Components/Assets/Trana/Sketch.png'
 
 
 const style = { padding: '8px 0' };
@@ -16,7 +18,7 @@ const style = { padding: '8px 0' };
 function Trana() {
     return (
         <div>
-            <div className='trana-spread'>
+            <div className='spread'>
                 <img className="header-image" src={Spread} alt="Trana-Background"></img>
             </div>
             <div className='trana-master'>
@@ -49,14 +51,14 @@ function Trana() {
             
             <div className='content-master'>
                 <div className='section'>
-                    <h2 className='heading'>OVERVIEW</h2>
+                    <h2 className='trana-heading'>OVERVIEW</h2>
                     <h2 className='caption'>What Did We Do?</h2>
                     <p className='paragraph'>During pandemic struck times, I found no motivation to work out at home, so I decided to do something about it. With nowhere to go and loads of idle time, I decided to create an app that would help people find the motivation to get themselves out of bed. Träna is a social fitness app that motivates people to work out at home and stay fit.</p>
                     <p className='paragraph'>Träna connects users with there peers and allows them to work out together and compete in an attempt to dominate weekly scores. All of this, from the comfort of their own homes.</p>
                     
                 </div>
                 <div className='section'>
-                <h2 className='heading'>PROBLEM</h2>
+                <h2 className='trana-heading'>PROBLEM</h2>
                     <h2 className='caption'>No Motivation!</h2>
                     <p className='paragraph'>During the massive coronavirus outbreak, my life took a significant toll. Used to living on campus, living at home was a complete lifestyle change. More so, the closure of gyms all around the world took away my one hour of joy, which I used to relieve any stress I had during the day. No commute while the virus pondered around meant that fitness was a priority above all, indicating that we needed to get used to home workouts.</p>
                     <p className='paragraph'>My friends from college shared my emotions towards working out at home; there was no motivation. After trying dozens of apps, promising to turn me into the next Schwarzenegger, I spent several days trying to get used to home workouts. However, the user experience didn't do an excellent job of pushing me enough to stop me from binging Netflix shows instead.</p>
@@ -64,7 +66,7 @@ function Trana() {
                 </div>
 
                 <div className='section'>
-                    <h2 className='heading'>THE CHALLENGE</h2>
+                    <h2 className='trana-heading'>THE CHALLENGE</h2>
                     <h2 className='caption'>Setting Goals</h2>
                     <p className='paragraph'>It's difficult to keep up with a strict fitness regime when a thousand different things cloud your motivation to work out. People who try to pick up fitness apps often give up since they can't get themselves to make an effort to exercise everyday. So, while designing the app, my main challenges would be to:</p>
                     <ul className='list'>
@@ -82,7 +84,7 @@ function Trana() {
                 </div>
 
                 <div className='section'>
-                    <h2 className='heading'>DESIGN PROCESS</h2>
+                    <h2 className='trana-heading'>DESIGN PROCESS</h2>
                     <h2 className='caption'>Mapping A Timeline</h2>
                     <p className='paragraph'>In order to create an effective output to the problem we are trying to tackle, each step of the process was divided into separate parts. This would allow us to put complete focus on individual processes while having a clear idea of the steps ahead. The design process we used is given below:</p>
                     <img className='figures' src={DP} alt='Design Process'></img>
@@ -90,7 +92,7 @@ function Trana() {
                 </div>
 
                 <div className='section'>
-                    <h2 className='heading'>USER RESEARCH</h2>
+                    <h2 className='trana-heading'>USER RESEARCH</h2>
                     <h2 className='caption'>What Users Want</h2>
                     <p className='paragraph'>Solving a user-centric problem requires information from users to gauge their expectations from an ideal fitness app. Surveying 82 people from my university, I focused on regular gym-goers and how the lockdown affected their feelings and actions towards fitness. The results I acquired gave me insights I could work on and form user personas to keep in mind while designing the app.</p>
                     <img className='figures' src={stats} alt='User Stats'></img>
@@ -103,7 +105,7 @@ function Trana() {
                 </div>
 
                 <div className='section'>
-                    <h2 className='heading'>COMPETITIVE ANALYSIS</h2>
+                    <h2 className='trana-heading'>COMPETITIVE ANALYSIS</h2>
                     <h2 className='caption'>Features ≠ Incentive</h2>
                     <p className='paragraph'>Using different fitness apps over the course of a week, my initial observation was how each app focused on one particular model to provide solutions for fitness. Be it a single 15-minute workout or a long-term commitment, this allowed the apps to specialise at what they do. However, even though the content in all these apps was similar, the way it was served had little to no differences among them.</p>
                     <p className='paragraph'>Before initiating my ideation phase, I wanted to see how these existing apps engage their users and how they address these pain points. By analysing areas they excel while observing domains they don’t cover, my design process will be smoother and will allow me to improve on some of the tools these apps employ.</p>
@@ -111,19 +113,19 @@ function Trana() {
                 </div>
 
                 <div className='section'>
-                    <h2 className='heading'>IDEATION</h2>
+                    <h2 className='trana-heading'>IDEATION</h2>
                     <h2 className='caption'>Jotting Down Ideas</h2>
                     <p className='paragraph'>With a set goal, in order to achieve the optimal output, we chose to design for pain points by looking at design opportunities. To be on the same page with each opportunity, we posed them as ‘How might we’ questions and intended to design for each opportunity separately.</p>
                     <img className='figures' src={DesignOpportunities} alt='Design Opportunities'></img>
                     <p className='paragraph'>Ideating and designing for these opportunities was fun and collaborative, allowing us to brainstorm over the viability of certain features for hours. To set off on our escapade, we chose to jot down our ideas in early stage low-fidelity wireframes.</p>
-                    <img className='figures' src={CompetitiveAnalysis} alt='Competitive Analysis'></img>
+                    <img className='figures' src={Sketch} alt='Sketch'></img>
                     <p className='paragraph'>As visual learners, we thought it was best to create a site map for the app to give it a coherent structure which wouldn’t pose as a hinderance to the user in later stages. Not only did it allow us to be on the same page regarding the structure, it also gave us control over the user flow and how we could improve interactions to make navigation seamless.</p>
                     <img className='figures' src={UserFlow} alt='User Flow'></img>
                     <p className='paragraph'>With all the basic structure set, we were ready to move on to take advantage for our design opportunities.</p>
                 </div>
 
                 <div className='section'>
-                    <h2 className='heading'>PROTOTYPING</h2>
+                    <h2 className='trana-heading'>PROTOTYPING</h2>
                     <h2 className='caption'>Ideas ➔ Life</h2>
                     <p className='paragraph'>Write Something here...</p>
                     <h3 className='feature-caption'>Real-Time Workouts with Friends</h3>

@@ -7,7 +7,7 @@ function Header() {
         <div className='header-layout'>
             <div className='content'>
                 <h1 className='title'>Hi, I am Tanuj Sood 🚀</h1>
-                <h3 className='main-caption'>An Aspiring Product Designer passionate about building meaningful<br /> <span className=""></span>virtual experiences that enhance our interactions in the real world.</h3>          
+                <h3 className='main-caption'>An Aspiring Product Designer passionate about building meaningful<br />virtual experiences that enhance our interactions with the real world.</h3>          
             </div>
             
         </div>
