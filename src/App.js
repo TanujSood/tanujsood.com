@@ -1,6 +1,7 @@
 import './App.css';
-import 'antd/dist/antd.min.css';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'antd/dist/antd.min.css';
 import Landing from './Pages/Landing';
 import About from './Pages/About';
 import Error404 from './Pages/Error404';
