@@ -1,8 +1,26 @@
 .contact-master {
+    height: 50vh;
     display: flex;
+    flex-direction: column;
+    align-content: center;
     justify-content: center;
     vertical-align: middle;
-    height: 50vh;
-    line-height: 50vh;
-    background-color: bisque;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+
+.mail {
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.mail-id {
+    text-decoration: none;
+}
+
+.mail-highlight {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(182, 255, 194);
 }

@@ -1,21 +1,31 @@
 import './App.css';
-import Navbar from './Pages/Components/Navbar';
-import Header from './Pages/Components/Header';
-import Projects from './Pages/Components/Projects';
-import Contact from './Pages/Components/Contact';
-import { Layout } from 'antd';
-
-const { Footer } = Layout;
+import 'antd/dist/antd.min.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Landing from './Pages/Landing';
+import About from './Pages/About';
+import Error404 from './Pages/Error404';
+import Trana from './Pages/Projects/Trana';
+import BharatSim from './Pages/Projects/BharatSim'
+import FashionDeli from './Pages/Projects/FashionDeli'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Projects />
-      <Contact />
-      <Footer style={{ textAlign: 'center' }}> ©2022 Created with ♥ by Tanuj Sood</Footer>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/work" element={<Landing />} />
+        <Route path="/about" element={<About />} />
+
+        {/* Project Pages */}
+        <Route path="/work/trana" element={<Landing />} />
+        <Route path="/work/fashion-deli" element={<Landing />} />
+        <Route path="/work/bharat-sim" element={<Landing />} />
+        <Route path="/work/spacefindr" element={<Error404 />} />
+
+        {/* 404 */}
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </Router>
   );
 }
 

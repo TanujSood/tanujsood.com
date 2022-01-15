@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
     return (
         <div className='contact-master'>
-            Hey
+            <h3 className="mail">Wanna discuss internship opportunities? Or the next million dollar idea?<br />Mail me <a className="mail-id" href="mailto:tanujsoodhci@gmail.com"><span className='mail-highlight'>@tanujsoodhci@gmail.com</span></a></h3>
         </div>
     )
 }

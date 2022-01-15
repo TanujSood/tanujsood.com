@@ -1,9 +1,49 @@
 .project-master {
-    height: 100vh;
+    height: 70vh;
 }
 
 .card-stack {
     margin-right: 10vw;
     margin-left: 10vw;
     vertical-align: middle;
+}
+
+.trana-col {
+    height: 300px;
+    background-image: url("Assets/Trana/Trana.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.spacefindr-col {
+    height: 300px;
+    background-image: url("Assets/SpaceFindr/SpaceFindr.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.fashiondeli-col {
+    height: 300px;
+    background-image: url("Assets/FashionDeli/FashionDeli.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.bharatsim-col {
+    height: 300px;
+    background-image: url("Assets/BharatSim/BharatSim.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: black;
+    border-radius: 4px;
 }

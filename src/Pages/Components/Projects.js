@@ -1,31 +1,27 @@
 import React from 'react'
-import { Typography } from 'antd';
 import { Row, Col } from 'antd';
+import { Badge } from 'antd';
 import 'antd/dist/antd.min.css';
 import './Projects.css'
-
-const { Title } = Typography;
-const style = { background: 'black', height:'300px' };
-
 
 function Projects() {
     return (
         <div className='project-master'>
-            <Title>Selected Projects</Title>
             <div className='card-stack'>
                 <Row gutter={[32, 32]}>
                     <Col className="gutter-row" span={12}>
-                        <a href="https://www.google.com/"><div style={style}>col-6</div></a>
+                        <a href="https://www.google.com/"><div className='trana-col' /></a>
                     </Col>
                     <Col className="gutter-row" span={12}>
-                        <div style={style}>col-6</div>
+                        <a href="https://www.google.com/"><div className='bharatsim-col' /></a>
                     </Col>
                     <Col className="gutter-row" span={12}>
-                        <div style={style}>col-6</div>
+                        <a href="https://www.google.com/"><div className='fashiondeli-col' /></a>
                     </Col>
                     <Col className="gutter-row" span={12}>
-                        <div style={style}>col-6</div>
-                    </Col>
+                        <Badge.Ribbon text="In Progress..."></Badge.Ribbon>
+                        <a href="https://www.google.com/"><div className='spacefindr-col' /></a>
+                        </Col>
                 </Row>
             </div>
         </div>
