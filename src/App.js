@@ -18,9 +18,9 @@ function App() {
         <Route path="/about" element={<About />} />
 
         {/* Project Pages */}
-        <Route path="/work/trana" element={<Landing />} />
-        <Route path="/work/fashion-deli" element={<Landing />} />
-        <Route path="/work/bharat-sim" element={<Landing />} />
+        <Route path="/work/trana" element={<Trana />} />
+        <Route path="/work/fashion-deli" element={<FashionDeli />} />
+        <Route path="/work/bharat-sim" element={<BharatSim />} />
         <Route path="/work/spacefindr" element={<Error404 />} />
 
         {/* 404 */}
