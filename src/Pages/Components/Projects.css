@@ -1,5 +1,9 @@
 .project-master {
-    height: 70vh;
+    /* background-color: cornflowerblue; */
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 .card-stack {

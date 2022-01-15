@@ -1,0 +1,14 @@
+.work-master {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.work-title {
+    font-size: 5rem;
+    font-weight: 700;
+}

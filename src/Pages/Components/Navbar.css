@@ -14,8 +14,6 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 35px;
     list-style: none;
     text-align: center;
     width: 70vw;
@@ -27,9 +25,20 @@
     font-size: 16px;
     color: black;
     text-decoration: none;
+    margin-right: 3rem;
+}
+
+.nav-link-end {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
 }
 
 .nav-link:hover {
+    color: black;
+}
+
+.nav-link-end:hover {
     color: black;
 }
 
@@ -48,7 +57,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: green;
+    background-color: black;
     z-index: -1;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
