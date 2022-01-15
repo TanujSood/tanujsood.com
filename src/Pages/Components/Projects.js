@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typography } from 'antd';
 import { Row, Col } from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import './Projects.css'
 
 const { Title } = Typography;

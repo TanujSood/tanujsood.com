@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import { Row, Col } from 'antd';
 import { Typography } from 'antd';
 
@@ -10,9 +10,10 @@ function Header() {
     return (
         <div className='header-layout'>
             <div className='content'>
+
                 <Row align="middle" style={{alignContent:'center', height:'100%', backgroundColor:'beige'}}>
                     <Col span={14} style={{height:'25%', textAlign:'left', backgroundColor:'purple'}}>
-                        <a href="https://google.com" target="_blank" rel="noopener noreferrer"></a><Title>Hi! I am Tanuj Sood</Title>
+                        <Title>Hi! I am Tanuj Sood</Title>
                         <h3>An Aspiring Product Designer</h3>
                         
                     </Col>
