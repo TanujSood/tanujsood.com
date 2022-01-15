@@ -8,6 +8,7 @@ import Error404 from './Pages/Error404';
 import Trana from './Pages/Projects/Trana';
 import BharatSim from './Pages/Projects/BharatSim'
 import FashionDeli from './Pages/Projects/FashionDeli'
+import SpaceFIndr from './Pages/Projects/SpaceFIndr';
 import Work from './Pages/Work';
 import Navbar from './Pages/Components/Navbar';
 import { Layout } from 'antd';
@@ -36,7 +37,7 @@ function App() {
         <Route path="/work/trana" element={<Trana />} />
         <Route path="/work/fashiondeli" element={<FashionDeli />} />
         <Route path="/work/bharatsim" element={<BharatSim />} />
-        <Route path="/work/spacefindr" element={<Error404 />} />
+        <Route path="/work/spacefindr" element={<SpaceFIndr />} />
 
         {/* 404 */}
         <Route path="*" element={<Error404 />} />

@@ -16,7 +16,7 @@ const style = { padding: '8px 0' };
 function Trana() {
     return (
         <div>
-            <div className='spread'>
+            <div className='trana-spread'>
                 <img className="header-image" src={Spread} alt="Trana-Background"></img>
             </div>
             <div className='trana-master'>

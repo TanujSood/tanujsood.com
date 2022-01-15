@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
-.spread {
+.trana-spread {
     display: flex;
     justify-content: center;
 }
@@ -39,7 +39,7 @@
     font-weight: 900;
     font-size: 1.3rem;
     color: rgb(254, 82, 81);
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .paragraph {
@@ -53,7 +53,7 @@
     font-family: Lato;
     font-weight: 900;
     font-size: 60px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .sub-caption {
@@ -75,8 +75,8 @@
 }
 
 .content-master {
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
 
 .details {
