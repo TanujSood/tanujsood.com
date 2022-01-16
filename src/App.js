@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'antd/dist/antd.min.css';
 import Landing from './Pages/Landing';
@@ -12,13 +12,18 @@ import SpaceFIndr from './Pages/Projects/SpaceFIndr';
 import Work from './Pages/Work';
 import Navbar from './Pages/Components/Navbar';
 import { Layout } from 'antd';
-import usePageTracking from './usePageTracking';
+
+import ReactGa from 'react-ga';
 
 const { Footer } = Layout;
 
 function App() {
 
-  usePageTracking();
+  useEffect(() => {
+    ReactGa.initialize('UA-217268374-1')
+    
+    ReactGa.pageview('/')
+  }, [])
 
   return (
     <Router>
