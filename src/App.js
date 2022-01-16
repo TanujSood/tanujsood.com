@@ -12,18 +12,13 @@ import SpaceFIndr from './Pages/Projects/SpaceFIndr';
 import Work from './Pages/Work';
 import Navbar from './Pages/Components/Navbar';
 import { Layout } from 'antd';
-
-import ReactGa from 'react-ga';
+import usePageTracking from './usePageTracking';
 
 const { Footer } = Layout;
 
 function App() {
 
-  useEffect(() => {
-    ReactGa.initialize('UA-217268374-1')
-    
-    ReactGa.pageview('/')
-  }, [])
+  usePageTracking();
 
   return (
     <Router>
