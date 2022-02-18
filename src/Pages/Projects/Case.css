@@ -27,8 +27,6 @@
     margin-bottom: 40px;
 }
 
-
-
 .paragraph {
     font-family: Roboto;
     font-weight: 400;
@@ -75,5 +73,16 @@
 
 .figures {
     width: 100%;
+    margin-bottom: 20px;
+}
+
+.quote-div {
+    display: flex;
+    justify-content: center;
+}
+
+.quotes-figure {
+    align-items: center;
+    width: 50%;
     margin-bottom: 20px;
 }
