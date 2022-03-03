@@ -16,6 +16,7 @@ function Projects() {
                         <a href='/work/bharatsim'><div className='bharatsim-col' /></a>
                     </Col>
                     <Col className="gutter-row" span={12}>
+                        <Badge.Ribbon text="In Progress..."></Badge.Ribbon>
                         <a href='/work/fashiondeli'><div className='fashiondeli-col' /></a>
                     </Col>
                     <Col className="gutter-row" span={12}>

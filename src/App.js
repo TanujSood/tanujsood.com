@@ -24,7 +24,7 @@ function App() {
     
     ReactGa.pageview('/')
   }, [])
-
+ 
   return (
     <Router>
       <Navbar />
