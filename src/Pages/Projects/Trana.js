@@ -127,10 +127,11 @@ function Trana() {
                 <div className='section'>
                     <h2 className='trana-heading'>PROTOTYPING</h2>
                     <h2 className='caption'>Ideas ➔ Life</h2>
-                    <p className='paragraph'>Write Something here...</p>
+                    <p className='paragraph'></p>
                     <h3 className='feature-caption'>Real-Time Workouts with Friends</h3>
                     <h3 className='feature-caption'>Longevity Streaks and Leaderboards</h3>
                     <h3 className='feature-caption'>Live Workout Streams by Professionals</h3>
+                    <p className='paragraph'>Our next steps would be to implement the wireframes to mid-fidelity and high-fidelity prototypes and conduct a future round of testing to reflect on how users interact with these features. Stay tuned!</p>
                 </div>
 
             </div>
