@@ -6,6 +6,7 @@ import Spread from '../Components/Assets/BharatSim/BharatSimSpread.png';
 import Principles from '../Components/Assets/BharatSim/Principles.png'
 import Timeline from '../Components/Assets/BharatSim/Timeline.png'
 import Quotes from '../Components/Assets/BharatSim/Quotes.png'
+import Personas from '../Components/Assets/BharatSim/Personas.png'
 
 
 const style = { padding: '8px 0' };
@@ -36,7 +37,7 @@ function BharatSim() {
                         <Col className="gutter-row" span={8}>
                             <div style={style}>
                                 <h3 className='roles'>DURATION</h3>
-                                <h3>August 2021 - December 2021</h3>
+                                <h3>August '21 - January '22</h3>
                             </div>
                         </Col>
                     </Row>
@@ -67,17 +68,22 @@ function BharatSim() {
                     <p className='paragraph'>Asking them questions about how they felt when using the current system while gauging their expectations, I was able to extract three key points that were prevalent in all use cases. These were</p>
                     <ul className='list'>
                         <li>
-                            <p className='paragraph'>Many new researchers wanted to run pre-existing models on BharatSim and use the interface to tweak parameters and discover changes in order to get a feel of the engine.</p>
+                            <p className='paragraph'>Many new researchers wanted to <span className='bharatsim-hl'>run pre-existing models</span> on BharatSim and use the interface to tweak parameters and discover changes in order to get a feel of the engine.</p>
                         </li>
                         <li>
-                            <p className='paragraph'>Regular users wanted to use this tool in order to streamline tedious processes while still having access to their original codefiles.</p>
+                            <p className='paragraph'>Regular users wanted to use this tool in order to <span className='bharatsim-hl'>streamline tedious processes</span> while still having access to their original codefiles.</p>
                         </li>
                         <li>
-                            <p className='paragraph'>All users wanted to have the functionality of being able to download separate files while also being able to copy only a particular section of code.</p>
+                            <p className='paragraph'>All users wanted to have the functionality of being able to <span className='bharatsim-hl'>download separate files</span> while also being able to copy only a particular <span className='bharatsim-hl'>section of code.</span></p>
                         </li>
                     </ul>
                 </div>
-                
+                <div className='section'>
+                    <h2 className='bs-heading'>USER PERSONAS</h2>
+                    <h2 className='caption'>Who Do We Target?</h2>
+                    <p className='paragraph'></p>
+                    <div className='persona-div'><img className='persona-figure' src={Personas} alt='Personas'></img></div>
+                </div>
             </div>
         </div>
     )
