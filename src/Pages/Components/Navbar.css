@@ -7,6 +7,8 @@
 }
 
 .site-title {
+    color: black;
+    font-weight: bold;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -23,23 +25,23 @@
 
 .nav-link {
     font-size: 16px;
-    color: black;
+    color: #3ed157;
     text-decoration: none;
     margin-right: 3rem;
 }
 
 .nav-link-end {
     font-size: 16px;
-    color: black;
+    color: #3ed157;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    color: black;
+    color: #3ed157;
 }
 
 .nav-link-end:hover {
-    color: black;
+    color: #3ed157;
 }
 
 .hover-underline-animation {
@@ -57,7 +59,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: #3ed157;
     z-index: -1;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;

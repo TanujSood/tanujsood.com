@@ -1,5 +1,5 @@
 .header-layout {
-    height: 70vh;
+    height: 80vh;
 }
 
 .content {
@@ -11,7 +11,7 @@
     vertical-align: middle;
     margin-right: 10vw;
     margin-left: 10vw;
-    margin-top: -20px;
+    margin-top: -100px;
 }
 
 .title {
@@ -20,7 +20,16 @@
 }
 
 .main-caption {
-    margin-top: -20px;
+    margin-top: -40px;
     font-size: 24px;
     line-height: 1.5;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-icon {
+    width: 20%
 }

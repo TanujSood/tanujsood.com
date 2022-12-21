@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className='Navbar'>
             <a href='/'>
-                <h1 className='site-title hover-underline-animation'>Tanuj Sood</h1>
+                <h1 className='site-title hover-underline-animation'>Tanuj Sood.</h1>
             </a>
             <div className='site-logo'>
 
