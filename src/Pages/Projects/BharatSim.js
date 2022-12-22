@@ -84,6 +84,11 @@ function BharatSim() {
                     <p className='paragraph'>With our problem statement defined and users in sight, my next goal was to define personas for the unique target users I was aiming to create this tool for.</p>
                     <div className='persona-div'><img className='persona-figure' src={Personas} alt='Personas'></img></div>
                 </div>
+                <div className='section'>
+                    <h2 className='bs-heading'>IDEATION</h2>
+                    <h2 className='caption'>Brainstorming...</h2>
+                    <p className='paragraph'>With our problem statement defined and users in sight, my next goal was to define personas for the unique target users I was aiming to create this tool for.</p>
+                </div>
             </div>
         </div>
     )
