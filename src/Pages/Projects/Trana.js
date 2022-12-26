@@ -121,13 +121,13 @@ function Trana() {
                     <img className='figures' src={Sketch} alt='Sketch'></img>
                     <p className='paragraph'>As visual learners, we thought it was best to create a site map for the app to give it a coherent structure which wouldn’t pose as a hinderance to the user in later stages. Not only did it allow us to be on the same page regarding the structure, it also gave us control over the user flow and how we could improve interactions to make navigation seamless.</p>
                     <img className='figures' src={UserFlow} alt='User Flow'></img>
-                    <p className='paragraph'>With all the basic structure set, we were ready to move on to take advantage for our design opportunities.</p>
+                    <p className='paragraph'>With all the basic structure set, we were ready to move on to take advantage of our design opportunities.</p>
                 </div>
 
                 <div className='section'>
-                    <h2 className='trana-heading'>PROTOTYPING</h2>
+                    <h2 className='trana-heading'>DESIGN</h2>
                     <h2 className='caption'>Ideas ➔ Life</h2>
-                    <p className='paragraph'></p>
+                    <p className='paragraph'>To start off and iterate over the structure of our prototypes, we decided to create mid-fidelity prototypes. This would allow us to maximize user experience on the app and save us time it will take us to rearrange and reorder the overall structure of elements.</p>
                     <h3 className='feature-caption'>Real-Time Workouts with Friends</h3>
                     <h3 className='feature-caption'>Longevity Streaks and Leaderboards</h3>
                     <h3 className='feature-caption'>Live Workout Streams by Professionals</h3>

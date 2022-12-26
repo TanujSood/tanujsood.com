@@ -7,7 +7,7 @@ const style = { padding: '10px 0' };
 
 function About() {
     return (
-        <div>
+        <div className="about-section">
             <Row className="back" gutter={16}>
                 <Col className="gutter-row left" span={8}>
                     <div style={style} className="profile">
@@ -24,11 +24,11 @@ function About() {
                     <p className="description">Currently, I'm learning more about virtual environments and polishing my UI skills. Feel free to reach out to me on <span className="linkedin-hl">Linkedin</span> or on <span className="mail-hl">email</span> and we can have a chat over a cup of coffee.</p>
                 </Col>    
             </Row>
-            <Row className="readinglist" justify="center">
+            {/* <Row className="readinglist" justify="center">
                 <Col className="reading-col gutter-row" span={18}>
                     <h1 className="reading-title">Next on the Reading List!</h1>
                 </Col>
-            </Row>
+            </Row> */}
         </div>
     )
 }
