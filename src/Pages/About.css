@@ -1,0 +1,130 @@
+.title {
+    font-family: Lato;
+    font-size: 3rem;
+}
+
+.hl {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 70%, rgba(182, 255, 194, 1) 70%, rgba(182, 255, 194, 1) 100%);
+    border-radius: 2px;
+}
+
+.isu {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 70%, rgb(255, 186, 182) 70%, rgb(255, 186, 182) 100%);
+    border-radius: 2px;
+}
+
+/* ------------------------------------------ */
+
+/* .left {
+    display: flex;
+    align-items: center;
+} */
+
+.back {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.prof-image {
+    margin-right: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.profile-img {
+    width: 80%;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.description {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 20%;
+}
+
+.linkedin-hl {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 70%, rgba(154, 198, 255, 1) 70%, rgba(154, 198, 255, 1) 100%);
+    border-radius: 2px;
+}
+
+.mail-hl {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 70%, rgba(205, 154, 255, 1) 70%, rgba(205, 154, 255, 1) 100%);
+    border-radius: 2px;
+}
+
+/* -------------------------------------Second Section------------------------------------- */
+
+.divider {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    width: 80%;
+}
+
+.reading-col {
+    /* background-color: blue; */
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.reading-title {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+
+
+
+/* -------------------------------------Media Queries------------------------------------- */
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .description {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        margin-right: 10%;
+    }
+
+    .profile-img {
+        width: 100%;
+    }
+
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .description {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        margin-right: 10%;
+    }
+
+    .profile-img {
+        width: 100%;
+    }
+
+}
+
