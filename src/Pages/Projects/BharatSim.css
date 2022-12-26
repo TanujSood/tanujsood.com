@@ -1,3 +1,8 @@
+.roles {
+    font-weight: bold;
+    color: rgb(59, 52, 158)
+}
+
 .bs-heading {
     font-family: Lato;
     font-weight: 900;
@@ -30,5 +35,54 @@
 .persona-figure {
     align-items: center;
     width: 70%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.iter-div {
+    display: flex;
+    justify-content: center;
+}
+
+.iter1 {
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.demo_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.demo_gif {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.feature_div {
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    width: 100%;
+}
+
+.list-item {
+    list-style: circle;
+}
+
+#list-item li::marker{
+    color: rgb(59, 52, 158);
+}
+
+.list-i {
+    margin-bottom: 10px;
+}
+
+.end {
+    margin-bottom: 60px;
 }
