@@ -11,6 +11,8 @@ import CompetitiveAnalysis from '../Components/Assets/Trana/CompetitiveAnalysis.
 import UserFlow from '../Components/Assets/Trana/UserFlow.png'
 import DesignOpportunities from '../Components/Assets/Trana/DesignOpportunities.png'
 import Sketch from '../Components/Assets/Trana/Sketch.png'
+import Prototype from '../Components/Assets/Trana/Prototype.png'
+
 
 
 const style = { padding: '8px 0' };
@@ -28,21 +30,21 @@ function Trana() {
                     <Row gutter={16}>
                         <Col className="gutter-row" span={8}>
                             <div style={style}>
-                                <h3 className='roles'>CATEGORY</h3>
+                                <h3 className='trana-roles'>CATEGORY</h3>
                                 <h3>Passion Project</h3>
                             </div>
                         </Col>
                         <Col className="gutter-row" span={8}>
                             <div style={style}>
-                                <h3 className='roles'>TEAM</h3>
+                                <h3 className='trana-roles'>TEAM</h3>
                                 <h3>Tanuj Sood</h3>
                                 <h3>Neeraj Pandey</h3>
                             </div>
                         </Col>
                         <Col className="gutter-row" span={8}>
                             <div style={style}>
-                                <h3 className='roles'>DURATION</h3>
-                                <h3>May 2020 - August 2020</h3>
+                                <h3 className='trana-roles'>DURATION</h3>
+                                <h3>November 2022 - December 2022</h3>
                             </div>
                         </Col>
                     </Row>
@@ -128,9 +130,12 @@ function Trana() {
                     <h2 className='trana-heading'>DESIGN</h2>
                     <h2 className='caption'>Ideas ➔ Life</h2>
                     <p className='paragraph'>To start off and iterate over the structure of our prototypes, we decided to create mid-fidelity prototypes. This would allow us to maximize user experience on the app and save us time it will take us to rearrange and reorder the overall structure of elements.</p>
-                    <h3 className='feature-caption'>Real-Time Workouts with Friends</h3>
+                    <div className='prototype-div'>
+                        <img src={Prototype} alt="Mid-Fi and Hi-Fi Prototypes" className="prototype-1" />
+                    </div>
+                    {/* <h3 className='feature-caption'>Real-Time Workouts with Friends</h3>
                     <h3 className='feature-caption'>Longevity Streaks and Leaderboards</h3>
-                    <h3 className='feature-caption'>Live Workout Streams by Professionals</h3>
+                    <h3 className='feature-caption'>Live Workout Streams by Professionals</h3> */}
                     <p className='paragraph'>Our next steps would be to implement the wireframes to mid-fidelity and high-fidelity prototypes and conduct a future round of testing to reflect on how users interact with these features. Stay tuned!</p>
                 </div>
 

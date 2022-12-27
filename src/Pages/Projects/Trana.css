@@ -5,3 +5,17 @@
     color: rgb(254, 82, 81);
     margin-bottom: -10px;
 }
+
+.prototype-1 {
+    width: 80%;
+}
+
+.prototype-div {
+    display: flex;
+    justify-content: center;
+}
+
+.trana-roles {
+    color: rgb(254, 82, 81);
+    font-weight: bold;
+}
