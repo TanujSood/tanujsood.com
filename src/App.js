@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'antd/dist/antd.min.css';
 import Landing from './Pages/Landing';
@@ -13,18 +13,9 @@ import Work from './Pages/Work';
 import Navbar from './Pages/Components/Navbar';
 import { Layout } from 'antd';
 
-import ReactGa from 'react-ga';
-
 const { Footer } = Layout;
 
 function App() {
-
-  useEffect(() => {
-    ReactGa.initialize('UA-217268374-1')
-    
-    ReactGa.pageview('/')
-  }, [])
- 
   return (
     <Router>
       <Navbar />
